@@ -6,13 +6,8 @@ package com.mycompany.poe;
 
 import java.util.Scanner;
 
-/**
- *
- * @author RC_Student_lab
- */
 public class Login {
-        
-//global variables
+    //global variables
      static String username;
      static String passW;
      static String name;
@@ -144,7 +139,7 @@ public class Login {
                 System.out.println(" Welcome " + name + " " + surname 
                                     + ", it is great to see you again.");
 
-                System.exit(0);
+                return;
             }else{
                      
                 System.out.println( "Username or password incorrect"
@@ -153,5 +148,5 @@ public class Login {
                 loginF();
                  }//else
     }//loginF
+
 }
-  
