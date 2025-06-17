@@ -1,8 +1,6 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package com.mycompany.poe;
+
+package poe1;
+
 
 import java.util.Scanner;
 
@@ -134,12 +132,10 @@ public class Login {
          String password2 = scanner.nextLine();
             
             if(user2.equals(username) && password2.equals(passW))
-            {
-               
-                System.out.println(" Welcome " + name + " " + surname 
-                                    + ", it is great to see you again.");
-
-                return;
+{
+        System.out.println(" Welcome " + name + " " + surname 
+                        + ", it is great to see you again.");
+            return;
             }else{
                      
                 System.out.println( "Username or password incorrect"
